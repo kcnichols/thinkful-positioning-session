@@ -21,41 +21,26 @@ button {
   padding-bottom: 10px; }
 
 /* positioning */
-.absolute {
-  position: absolute; }
-
-.relative {
-  position: relative; }
+.float-left {
+  float: left; }
 
 /* boxes */
 .box-container {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  padding: 54px 20px 35px;
+  padding: 35px 20px 35px;
   width: 350px; }
 
-.box-top_left {
-  left: 0;
-  top: 50px; }
+.box-margin {
+  margin: 3em 3em 3em 0; }
 
-.box-top_right {
-  right: 0;
-  top: 50px; }
-
-.box-bottom_left {
-  left: 0;
-  top: 425px; }
-
-.box-bottom_right {
-  right: 0;
-  top: 425px; }
+.box-margin:nth-child(even) {
+  margin-right: 0; }
 
 /* icons */
-.icon-top {
-  top: -50px; }
-
-.icon-middle {
-  left: 135px; }
+.social-icons {
+  margin-top: -100px;
+  margin-left: 120px; }
 
 /* button */
 .add-btn {
