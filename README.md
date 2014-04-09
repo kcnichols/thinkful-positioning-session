@@ -13,7 +13,7 @@
 
 ---
 
-### Part 2 - Absolute Positioning
+### Part 2 - Positioning with Floats
 
 ![image](part2-screenshot.jpg)
 
