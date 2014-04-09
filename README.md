@@ -13,6 +13,10 @@
 
 ---
 
+### Part 2 - Absolute Positioning
+
+![image](part2-screenshot.jpg)
+
 This will be a one hour session that will go further in detail about positioning that was not covered in the front end web development course. Most students hit walls when trying to fully understand how positioning works. We hope to give each participant a better understanding that will remove any misunderstanding about the best use of CSS positioning.
 
 ### CSS Code Organization
