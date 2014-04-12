@@ -1,14 +1,41 @@
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url("fonts/MyriadPro-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Light.woff") format("woff"), url("fonts/MyriadPro-Light.ttf") format("truetype"), url("fonts/MyriadPro-Light.svg#a99616dbb054e76c282c87b27678ee84") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
+
 /* The main elements */
 body {
   background-color: #E9EFF5;
-  font-size: 16px; }
+  font-family: 'Myriad Pro Light';
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background: #35B298;
+  border-bottom: 1px solid #000;
+  display: block;
+  margin: 0;
+  padding: 1.25em; }
+
+section {
+  background: #F5F5F5;
+  padding: 1em;
+  border-bottom: 1px solid #444; }
+
+h1, h3 {
+  margin: 0; }
 
 button {
   border: none; }
 
 /* id's */
 #social-wrapper {
-  margin: 0 auto;
+  margin: 3em auto;
   width: 75%; }
 
 /* classes */
@@ -52,3 +79,12 @@ button {
   color: #fff;
   font-size: 16px;
   line-height: 30px; }
+
+.social {
+  background: #428BCA;
+  color: #ffffff;
+  height: 30px;
+  margin: 1em .4em 0 .4em;
+  padding: .75em;
+  text-align: center;
+  width: 39.384615%; }
