@@ -58,13 +58,27 @@ button {
 /* classes */
 
 /* fonts */
+
+.social-h1 {
+	margin-top: 1em;
+}
+
 .text-center {
   text-align: center;
 }
 
 .underline {
-  border-bottom: 1px solid #EAEBEC;
+  border-bottom: 1px solid #CCC;
   padding-bottom: 10px;
+}
+
+.box-content {
+	margin: 0;
+	padding: 0;
+}
+
+.box-content:first-of-type {
+	margin-top: 1em;
 }
 
 /* positioning */
@@ -93,10 +107,29 @@ button {
 /* icons */
 
 .social-icons {
+	background-image: url('../img/icon-sprite.png');
+	background-repeat: no-repeat;
+	height: 100px;
   margin-top: -100px;
   margin-left: 120px;
+	width: 100px;
 }
 
+.icon-facebook {
+	background-position: 0 -0;
+}
+
+.icon-twitter {
+	background-position: -200px -100px;
+}
+
+.icon-linkedin {
+	background-position: -100px -100px;
+}
+
+.icon-pinterest {
+	background-position: -100px -200px;
+}
 
 /* button */
 .add-btn {
@@ -119,4 +152,10 @@ button {
 	padding: .75em;
 	text-align: center;
 	width: 39.384615%;
+}
+
+/* select box */
+.social-select {
+	float: right;
+	margin-top: -25px;
 }
