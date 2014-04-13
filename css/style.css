@@ -1,7 +1,33 @@
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url("fonts/MyriadPro-Light.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Light.woff") format("woff"), url("fonts/MyriadPro-Light.ttf") format("truetype"), url("fonts/MyriadPro-Light.svg#a99616dbb054e76c282c87b27678ee84") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
 /* The main elements */
 body {
   background-color: #E9EFF5;
-  font-size: 16px; }
+  font-family: 'Myriad Pro Light';
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background: #35B298;
+  border-bottom: 1px solid #000;
+  display: block;
+  margin: 0;
+  padding: 1.25em; }
+
+section {
+  background: #F5F5F5;
+  padding: 1em;
+  border-bottom: 1px solid #444; }
+
+h1, h3 {
+  margin: 0; }
 
 button {
   border: none; }
@@ -51,6 +77,24 @@ button {
   top: 425px; }
 
 /* icons */
+.social-icons {
+  background-image: url("../img/icon-sprite.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px; }
+
+.icon-facebook {
+  background-position: 0 -0; }
+
+.icon-twitter {
+  background-position: -200px -100px; }
+
+.icon-linkedin {
+  background-position: -100px -100px; }
+
+.icon-pinterest {
+  background-position: -100px -200px; }
+
 .icon-top {
   top: -50px; }
 
