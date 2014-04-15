@@ -6,6 +6,7 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200; }
+
 /* The main elements */
 body {
   background-color: #E9EFF5;
@@ -84,7 +85,7 @@ button {
   width: 100px; }
 
 .icon-facebook {
-  background-position: 0 -0; }
+  background-position: 0 0; }
 
 .icon-twitter {
   background-position: -200px -100px; }
@@ -99,7 +100,7 @@ button {
   top: -50px; }
 
 .icon-middle {
-  left: 135px; }
+  left: 145px; }
 
 /* button */
 .add-btn {
